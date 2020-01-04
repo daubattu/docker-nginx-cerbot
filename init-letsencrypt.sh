@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(storyev.tk www.storyev.tk)
+domains=(storyev.tk www.storyev.tk api.storyev.tk www.api.storyev.tk pgadmin.storyev.tk www.pgadmin.storyev.tk)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="" # Adding a valid address is strongly recommended
